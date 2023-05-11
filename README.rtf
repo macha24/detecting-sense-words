@@ -1,0 +1,64 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\froman\fcharset0 Times-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww23140\viewh12560\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\tx11520\tx12794\pardirnatural\qc\partightenfactor0
+
+\f0\fs28 \cf0 Final Report\
+DSCI 510\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\tx11520\tx12794\pardirnatural\qj\partightenfactor0
+
+\f1\b \cf0 1. \cf2 \cb3 \expnd0\expndtw0\kerning0
+What\'92s the name of your final project? Please describe it as a research question and provide a short description.
+\f0\b0 \
+\cb1 \uc0\u8232 The name of my final project is \'93Detecting words sense\'94. My project is focused on developing machine learning model to detect the different senses of words in context. To accomplish this, I will be using three specific words, namely \'93rubbish\'94, \'93yarn\'94, and \'93tissue\'94, which each have multiple senses and meanings depending on the context in which they are used. I will begin by training the model on examples of these words used in different contexts, focusing on two different senses for each word. The training data will be curated to include a diverse range of contexts and sentence structures, to make sure the model can accurately detect the correct sense of the word in any given context.\
+\
+
+\f1\b 2. How to run your code?\
+
+\f0\b0 a. Requirement.txt is added to the zip file\
+\
+b. For the training model: \'93python code/train_data.py\'94\
+For the testing model: \'93python code/test_data.py\'94\
+\
+c. https://github.com/macha24/detecting-words-sense\
+\
+
+\f1\b 3, What data did you collect? How did you collect them? How many data samples did you collect?\
+
+\f0\b0 a. For my project, I collected data in the form of sentences for three different words, which are \'93rubbish\'94, \'93yarn\'94, and tissue\'94. Each has multiple senses depending on the context in which they are used. \
+To start, I gathered 50 sentences for the word \'93rubbish\'94, focusing on two different senses: \'93rubbish, trash, scrap\'94 (sense 1) and \'93folderol, rubbish, tripe, trumpery, trash, wish-wash, applesauce, codswallop\'94 (sense 2). I then collected 25 sentences for each of these two senses, for a total of 50 sentences.\
+I also collected 50 sentences for the word \'93yarn\'94, focusing on the senses \'93narration, recital, yarn\'94 (sense 1) and \'93thread, yarn\'94 (sense 2). I gathered 25 sentences for each of these two senses for a total of 50 sentences.\
+Finally I collected 50 sentences for the word \'93tissue\'94, focusing on the senses \'93tissue (part of an organism consisting of an aggregate of cells having a similar structure and function)\'94 (sense 1) and \'93tissue, tissue paper (a soft thin paper)\'94 (sense 2). I also gathered 25 sentences for each sense, for a total 50 sentences. \
+I sourced the sentences from the website \'93 https://www.collinsdictionary.com/sentences/english/\'93.\
+\
+b. There were honestly no major changes to my original plan for data collection, as I was able to collect the necessary number of sentences for each sense of each word without difficulty. However, one challenge that I encountered was making sure that the sentences I collected represented a diverse range of contexts and sentences structures, in order to train the machine learning model effectively. To overcome this challenge I had, I selected sentences that varied in term of syntax, vocabulary, and context, and made sure that each sense of each word was represented equally.\
+\
+
+\f1\b 4. What kind of analyses or visualisations did you do ?\
+
+\f0\b0 a. For the project, I used a CSV file to store the results of my analyses. I created two column CSV file, with one column containing the sentences I collected, and the other column containing the sense of each word in the corresponding sentence. To train my machine learning models, I used several modules, including \'93nltk\'94, \'93sklearn\'94 and \'93pandas\'94, which I learned to used in this class but also in previous classes through my master degree. These modules helped me to preprocess and analyse the data, and to save the results in a format that was easy to interpret and use for further analysis.\
+\
+b. Through my analysis, I was able to train machine learning models on two different senses of each of the three words, and to detect the sense of each word in various contexts. I found that the models performed well in overall, achieving high accuracy rates and demonstrating the potential for this technology to be used in natural language processing and text analysis. My findings have implications for the field of natural language processing, since they demonstrate the potential for machine learning models to detect the multiple senses of words in various contexts. It could be used in a range of settings, including in automated text analysis, and in the development of more sophisticated chatbots and virtual assistants for example.\
+\
+c. One challenge I met was how to train models on multiple senses of each word, since there are many possible senses for a given word depending on the context. I was able to overcome this challenge by focusing on two different senses for each word, which allows me to train the models while still achieving high accuracy rates. I originally planned to use different models for my analyses, but I ended up using \'93nlt\'94, \'93sklearn\'94 and \'93pandas\'94 instead. \
+\
+
+\f1\b 5. Future work\
+
+\f0\b0 If given more time, I would expand the scope of the project by selecting additional words to analyze, not only three words that I focused on. It would have allowed me to explore the performance of the machine learning models on a wider range of vocabulary, and to gain a deeper understanding of the strengths and limitations of the models.\
+I would have focused on training the models on more than just two senses of each word. While training on two senses was effective for achieving high accuracy rates, expanding the training to include every possible sense of each word would have been even more interesting. To make this happen, I would need to collect more data and develop more algorithms for processing and analysing the data.\
+I would also have explore different machine learning algorithms other than the ones I used for my project. By testing different algorithms and comparing their performance, I could have gain a better understanding of the strengths and limitations of different approaches, and maybe identify new strategies for achieving even higher accuracy rates.\
+The last thing I would have done if I had more time would be to explore different types of analyses and visualisations to better understand the patterns and trends in the data, and give me a deeper insights into the structure and meaning of language.\
+\
+\
+\
+\
+
+\f1\b \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\tx11520\tx12940\tx12940\ri-3920\pardirnatural\qj\partightenfactor0
+
+\f0\b0 \cf2 \
+}
