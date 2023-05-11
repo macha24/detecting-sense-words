@@ -1,1 +1,1 @@
-# detecting-sense-words
+# detecting-words-sense
